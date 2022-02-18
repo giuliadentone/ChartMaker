@@ -21,7 +21,7 @@ The software takes in input a JSON file that needs to contain labels for the dat
 
 - Labels are important because they will appear on the chart to make it more legible. 
 - It is mandatory that the input file does not contain errors (such as the lack of commas or or the presence of datas that exceed the number of columns established for the data set). If the data set contains errors the software simply will crush or will not open your file.
-- If you want to save the dat aset you created by modifying the table directly on the view (as I will explain later) the JSON file that is going to be saved in your computer will be in the format previously shown.
+- If you want to save the data set you created by modifying the table directly on the view (as I will explain later) the JSON file that is going to be saved in your computer will be in the format previously shown.
 
 Here are some prepared JSON files to play with the ChartMaker or to take inspiration for your own dataset:
 
