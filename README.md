@@ -7,8 +7,6 @@ My main goal was to create software that elaborates and manipulates data sets to
 ##How to run ChartMaker
 To run the project, first and foremost, it's necessary to install Qt. You can find it here. Then you can download the repository and navigate to the root of the project. After that, all you need to do is follow these commands in your terminal:
 
-go
-Copy code
 qmake -qt=qt5
 make
 ./ChartMaker
