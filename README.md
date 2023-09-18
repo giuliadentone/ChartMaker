@@ -1,35 +1,36 @@
 # ChartMaker
-I developed this software by experimenting with Qt.
+ChartMaker is a data visualization software developed using the Qt framework. This project aims to create a tool that can manipulate and generate various types of charts from data sets.
 
-##Aim of the project
-My main goal was to create software that elaborates and manipulates data sets to generate different types of charts.
+## How to Run ChartMaker
+Before running the project, you must install Qt, which can be downloaded here. Once Qt is installed, follow these steps to run ChartMaker:
 
-##How to run ChartMaker
-To run the project, first and foremost, it's necessary to install Qt. You can find it here. Then you can download the repository and navigate to the root of the project. After that, all you need to do is follow these commands in your terminal:
-
+Clone or download this repository to your local machine.
+Navigate to the root directory of the project using your terminal.
+Execute the following commands:
 qmake -qt=qt5
 make
 ./ChartMaker
-This should display the main window on your screen.
 
-##User manual
-JSON file
-The software takes as input a JSON file that needs to contain labels for the data and the data itself. Here are the main rules for the input file:
+This will launch the ChartMaker application, displaying the main window on your screen.
 
-Every row of the JSON file will correspond to a row of data for the table of data you will see in the view.
+## User Manual:
+JSON Input
+ChartMaker requires a JSON input file that contains labels for the data and the data itself. Here are the key rules for the input file:
 
-It can only contain integers and doubles because those are the data types I was interested in manipulating. If you desire to upgrade the source code to make it possible to use every data type, you can turn my DataMatrix class into a template class. Feel free to do so and notify me of your suggestions!
+Each row of the JSON file corresponds to a row of data in the table view.
+The data in the JSON file should consist of integers and doubles only, as these are the supported data types. If you wish to expand the software to handle other data types, you can modify the DataMatrix class accordingly. Feel free to make improvements and share your suggestions!
+For optimal results, the input data sets should be preprocessed and error-free. The program does not perform data aggregation; it assumes that the data in the dataset is already elaborated. Avoid having multiple rows with the same labels, as this can lead to confusion in the generated charts.
 
-For planning purposes, I decided to take input only data sets that contain data that are already elaborated. The program will not sum data in the dataset if, for example, there are multiple rows named under the same labels. Here is an explanatory picture:
+Labels are crucial as they are used to enhance the legibility of the charts.
 
-Labels are important because they will appear on the chart to make it more legible.
+Please ensure that your input file is free of errors, such as missing commas or data exceeding the predefined number of columns. If your data set contains errors, the software may crash or fail to open your file.
 
-It is mandatory that the input file does not contain errors (such as the lack of commas or the presence of data that exceeds the number of columns established for the data set). If the data set contains errors, the software will simply crash or will not open your file.
+If you wish to save the modified data set by directly editing the table view (as explained later), the saved JSON file will adhere to the format previously specified.
 
-If you want to save the data set you created by modifying the table directly on the view (as I will explain later), the JSON file that is going to be saved on your computer will be in the format previously shown.
+To help you get started, we have included some sample JSON files for you to experiment with or gain inspiration for your datasets.
 
-Here are some prepared JSON files to play with the ChartMaker or to take inspiration for your dataset:
+## Development Environment
+Operating System: Ubuntu 20.10 64-bit
+Qt Version: 5.9.5
 
-##Development environment
-Operating system: Ubuntu 20.10 64-bit
-Qt version: 5.9.5"
+Feel free to explore and enhance ChartMaker for your data visualization needs. If you make improvements or have suggestions, please don't hesitate to reach out and share your feedback. Happy charting!
