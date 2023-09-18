@@ -6,10 +6,10 @@ Before running the project, you must install Qt, which can be downloaded here. O
 
 Clone or download this repository to your local machine.
 Navigate to the root directory of the project using your terminal.
-Execute the following commands:
-qmake -qt=qt5
-make
-./ChartMaker
+Execute the following commands: <br>
+qmake -qt=qt5 <br>
+make <br>
+./ChartMaker <br>
 
 This will launch the ChartMaker application, displaying the main window on your screen.
 
@@ -30,7 +30,7 @@ If you wish to save the modified data set by directly editing the table view (as
 To help you get started, we have included some sample JSON files for you to experiment with or gain inspiration for your datasets.
 
 ## Development Environment
-Operating System: Ubuntu 20.10 64-bit
-Qt Version: 5.9.5
+Operating System: Ubuntu 20.10 64-bit<br>
+Qt Version: 5.9.5 <br>
 
 Feel free to explore and enhance ChartMaker for your data visualization needs. If you make improvements or have suggestions, please don't hesitate to reach out and share your feedback. Happy charting!
