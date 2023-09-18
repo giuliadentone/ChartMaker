@@ -27,7 +27,42 @@ Please ensure that your input file is free of errors, such as missing commas or 
 
 If you wish to save the modified data set by directly editing the table view (as explained later), the saved JSON file will adhere to the format previously specified.
 
-To help you get started, we have included some sample JSON files for you to experiment with or gain inspiration for your datasets.
+Clicking on "New" brings up a window where you can input a label for the row, and once confirmed, a label for the column will appear. At this point, the table will appear in the view and can be edited as desired by the user.
+
+In the Menu Bar under the "Edit" section, you can find the following functionalities:
+
+"Add column before/add row before"
+"Add column after/add row after"
+"Delete column/delete row"
+Simply select a cell belonging to the desired row/column and click on the menu item.
+To edit an individual data point, simply double-click on the desired cell and then press Enter. The chart will be updated automatically.
+
+
+On the other hand, by clicking on "Open," you can input a JSON file into the program. Once you do that, the table with the data from the file will be created and displayed in the view.
+
+In the Menu Bar under the "File" section, you will find the following functionalities:
+
+"New" allows you to create a new table by inputting labels for the rows and columns. The view will display the new table, and you will need to draw a new chart of your choice to represent the updated dataset.
+"Open" enables you to open a .json file from your device, and the program will automatically display the table with the new dataset in the view.
+"Save" allows you to save the dataset of the created or modified table currently displayed in the view to a new JSON file.
+"Save as PNG" lets you save the chart in PNG format. Simply choose a name for the file, and if it doesn't save to your device automatically, manually add ".png" after the chosen file name. To adjust its size, you can enlarge or shrink the window.
+"Save as PDF" allows you to save the chart in PDF format.
+"Exit" closes the window.
+
+To display the desired chart in the view, you need to click on "View." A dropdown menu will appear with all available charts:
+- Pie Chart
+- Donut Chart
+- Bar Chart
+- Stacked Bar Chart
+- Horizontal Bar Chart
+- Horizontal Stacked Bar Chart
+- Percent Bar Chart
+- Horizontal Percent Bar Chart
+- Line Chart
+- Spline Chart
+- Scatter Chart
+
+If you choose to generate a Pie Chart or a Donut Chart, the program will open a warning window notifying the user that these charts, as explained earlier, only consider the first data column.
 
 ## Development Environment
 Operating System: Ubuntu 20.10 64-bit<br>
